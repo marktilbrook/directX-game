@@ -2,6 +2,7 @@
 #include "vector2D.h"
 #include "mydrawengine.h"
 #include "gametimer.h"
+#include "myinputs.h"
 
 class GameObject
 {
@@ -17,8 +18,12 @@ protected:
 	void LoadImage(const wchar_t* image);
 
 public:
-	void Render();
-	virtual void Update(double frametime) = 0;
+	virtual void Render();
+	virtual void Update(float frametime) = 0;
+
+	
+
+	Vector2D GetCurrentPosition();
 	
 };
 

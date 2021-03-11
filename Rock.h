@@ -8,6 +8,6 @@ private:
 public:
     Rock();
     void Initialise(Vector2D position); //initialise with starting position
-    void Update(double frametime);
+    void Update(float frametime);
 };
 

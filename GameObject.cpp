@@ -17,3 +17,10 @@ void GameObject::Render()
 	
 }
 
+Vector2D GameObject::GetCurrentPosition()
+{
+	return m_position;
+}
+
+
+

@@ -15,7 +15,7 @@ void Rock::Initialise(Vector2D position)
 	
 }
 
-void Rock::Update(double frametime)
+void Rock::Update(float frametime)
 {
 
 }
